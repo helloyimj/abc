@@ -1,0 +1,8 @@
+* {box-sizing: border-box;}
+#ban {width:100%;}
+#ban img {width:100%;}
+.list {width:70%;margin:2rem auto;}
+.list ul {display: grid;grid-template-columns: repeat(4,1fr);
+grid-template-rows: 1fr;grid-gap:10px;}
+.list ul li {width:100%;order:1px solid red;}
+.list ul li img {width:100%;}
